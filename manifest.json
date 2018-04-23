@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://gitlab.carpages.ca/*/pipelines"
+        "https://*/*/pipelines"
       ],
       "js": [
         "content.js"
@@ -13,6 +13,6 @@
     }
   ],
   "browser_action": {
-    "default_icon": "cp-gitalert.png"
+    "default_icon": "icon.png"
   }
 }
