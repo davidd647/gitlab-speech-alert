@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Carpages Gitlab Push Notifier",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gitlab.carpages.ca/*/pipelines"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "cp-gitalert.png"
+  }
+}

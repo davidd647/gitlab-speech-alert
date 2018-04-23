@@ -1,0 +1,23 @@
+{
+  "name": "gitlab-speech-alert",
+  "version": "1.0.0",
+  "description": "A Google Chrome extension (tested on ver 65.0.3325.181) that works on GitLab's pipelines page, an android voice will notify you if a task is running and when it finishes running.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Dales",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidd647/gitlab-speech-alert.git"
+  },
+  "keywords": [
+    "GitLab"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidd647/gitlab-speech-alert/issues"
+  },
+  "homepage": "https://github.com/davidd647/gitlab-speech-alert#readme"
+}
