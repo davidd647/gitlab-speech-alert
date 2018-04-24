@@ -10,6 +10,7 @@ On GitLab's pipelines page, a voice will notify you if a task is running  and wh
 ### Outstanding issues:
 - Does not work on the /jobs/<some number> page (directly after you click Build Frontend in the /pipelines/ page) so you have to navigate back to the /pipelines page to activate the robotic voice notifier. 
 - I believe I saw somewhere that MutationObserver was going to be deprecated :( I guess after that, I'll just have to swap out the MutationObserver for a setTimeout? Feels bad, man.
+- You need the tab to be open to be notified on time, because Chrome doesn't update a tab unless it's open.
 
 ### Directions:
 - Clone the repo into a directory
